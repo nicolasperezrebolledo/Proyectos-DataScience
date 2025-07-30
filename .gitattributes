@@ -1,3 +1,7 @@
+02_ML_Supervisado/CNN_Melanoma_Clasificacion/Melanomas.zip filter=lfs diff=lfs merge=lfs -text
+04_NLP_Series_Temporales/Clasificacion_FakeNews_NaiveBayes/data.zip filter=lfs diff=lfs merge=lfs -text
+02_ML_Supervisado/Regresion_Lineal_Cancer_USA/Regresion_Lineal_Cancer_USA.ipynb filter=lfs diff=lfs merge=lfs -text
+02_ML_Supervisado/Customer_Churn_Telecomunicaciones/Customer_Churn_Telecomunicaciones.ipynb filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
 *.db filter=lfs diff=lfs merge=lfs -text
 *.ipynb filter=lfs diff=lfs merge=lfs -text
