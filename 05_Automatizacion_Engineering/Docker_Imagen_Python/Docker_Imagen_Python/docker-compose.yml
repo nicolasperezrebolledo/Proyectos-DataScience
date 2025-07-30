@@ -1,0 +1,29 @@
+services:
+  postgres:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: bebidas
+      POSTGRES_PASSWORD: 123456
+      POSTGRES_DB: bebidas_etl
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  python-etl:
+    build:
+      context: .
+      dockerfile: dockerfile/Dockerfile
+    environment:
+      POSTGRES_HOST: postgres
+      POSTGRES_DB: bebidas_etl
+      POSTGRES_USER: bebidas
+      POSTGRES_PASSWORD: 123456
+    depends_on:
+      - postgres
+    ports:
+      - "8080:8080"
+      - "8888:8888"
+
+volumes:
+  postgres_data:
