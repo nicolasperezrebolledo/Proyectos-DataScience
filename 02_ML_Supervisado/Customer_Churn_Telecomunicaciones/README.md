@@ -39,12 +39,12 @@ Las **variables finales** seleccionadas para el modelo fueron:
 ### **3. Modelado de Regresión Logística**  
 Se probaron varios modelos, incluyendo versiones con **datos originales, submuestreo y sobremuestreo**.
 
-- **Mejor modelo:** `modelo_submuestreo_1`  
+- **Mejor modelo:** `modelo_submuestreo_0`  
 - **Métricas de desempeño:**  
-  - **Accuracy:** 61.44%  
-  - **Precision:** 60.74%  
-  - **Recall:** 65.02%  
-  - **F1-Score:** 62.80%  
+  - **Accuracy:** 63,04%  
+  - **Precision:** 62,18%  
+  - **Recall:** 66,79%  
+  - **F1-Score:** 64,40%  
   - **AUC:** 0.66  
 
 El modelo logró un **buen balance entre precisión y recall**, permitiendo **identificar clientes en riesgo de churn** con un desempeño aceptable.  
