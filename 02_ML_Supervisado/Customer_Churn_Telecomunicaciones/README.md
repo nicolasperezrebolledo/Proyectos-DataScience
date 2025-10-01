@@ -29,12 +29,19 @@ Se aplicaron múltiples técnicas para identificar las variables más relevantes
 
 Las **variables finales** seleccionadas para el modelo fueron:
 
-- `payments_completed_amount_first_7days`
-- `payments_initiated`
-- `given_permission_1`
-- `given_permission_2`
+- `first_payment_amount`
+- `age`
 - `number_of_cards`
-- `is_referral`
+- `payments_initiated`
+- `payments_failed`
+- `payments_completed`
+- `payments_completed_amount_first_7days`
+- `coins_redeemed_first_7days`
+- `is_referral1`
+- `visits_feature_1`
+- `visits_feature_2`
+- `given_permission_11`
+- `given_permission_21`
 
 ### **3. Modelado de Regresión Logística**  
 Se probaron varios modelos, incluyendo versiones con **datos originales, submuestreo y sobremuestreo**.
