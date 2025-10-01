@@ -35,7 +35,7 @@ Este proyecto se centra en el desarrollo de consultas dinámicas utilizando **SQ
 - **Gráficos clave:** Se visualizaron comparaciones entre géneros para detectar tendencias.  
 - **Insights obtenidos:** Se identificaron los géneros con más canciones, mayor duración promedio y mayor precio sin necesidad de definir valores manualmente.  
 
-## Conclusión  
+
  **El proyecto permitió desarrollar consultas dinámicas en SQL y Python para analizar la base de datos Chinook sin requerir valores fijos en el código. Se logró flexibilidad en la extracción de datos y generación de gráficos clave.**  
 
  **Se recomienda explorar la optimización de consultas y ampliar la visualización con dashboards interactivos para una mejor exploración de los datos.**  
